@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1e5d5f9b-9c3b-4495-a2c4-99dad95fa731</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>data\sitka_highs.py</StartupFile>
+    <StartupFile>data\eq_explore.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="data\eq_explore.py" />
     <Compile Include="data\sitka_highs.py" />
     <Compile Include="Generating_data.py" />
     <Compile Include="exercise.py" />

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1e5d5f9b-9c3b-4495-a2c4-99dad95fa731</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>data\eq_explore.py</StartupFile>
+    <StartupFile>api\python_repos.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="api\redo_repo.py" />
+    <Compile Include="api\submission.py" />
+    <Compile Include="api\python_repos.py" />
+    <Compile Include="api\readable_data.py" />
     <Compile Include="data\eq_explore.py" />
+    <Compile Include="data\eq_world_map.py" />
     <Compile Include="data\sitka_highs.py" />
     <Compile Include="Generating_data.py" />
     <Compile Include="exercise.py" />
@@ -38,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
+    <Folder Include="api\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
